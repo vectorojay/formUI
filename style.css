@@ -11,10 +11,30 @@ body {
   align-items: center;
 }
 
+.backdrop {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  backdrop-filter: blur(5px);
+}
+
 .div-text {
+  position: relative;
   height: 100%;
   padding: 9rem 2rem;
-  background: hsla(213, 77%, 14%, 1);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.795),
+      rgba(210, 187, 194, 0.027)
+    ),
+    url(images/store-4156934_1280.png);
+  background-size: cover;
+  background-position: center;
+  /* background: hsla(213, 77%, 14%, 1);
 
   background: hsla(213, 77%, 14%, 1);
 
@@ -36,7 +56,11 @@ body {
     hsla(202, 27%, 45%, 1) 100%
   );
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 ); */
+}
+
+.button {
+  background-color: rgb(46, 86, 112);
 }
 
 .content-box {
