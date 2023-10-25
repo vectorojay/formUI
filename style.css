@@ -99,7 +99,15 @@ body {
   .content-box {
     color: white !important;
 
-    background: hsla(213, 77%, 14%, 1);
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.835),
+        rgba(8, 33, 63, 0.548)
+      ),
+      url(images/store-4156934_1280.png);
+    background-size: cover;
+    background-position: center;
+    /* background: hsla(213, 77%, 14%, 1);
 
     background: hsla(213, 77%, 14%, 1);
 
@@ -121,6 +129,6 @@ body {
       hsla(202, 27%, 45%, 1) 100%
     );
 
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 ); */
   }
 }
