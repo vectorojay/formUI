@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-text {
+  height: 100%;
+  padding: 9rem 2rem;
+  background: hsla(213, 77%, 14%, 1);
+
+  background: hsla(213, 77%, 14%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(213, 77%, 14%, 1) 20%,
+    hsla(202, 27%, 45%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(213, 77%, 14%, 1) 20%,
+    hsla(202, 27%, 45%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(213, 77%, 14%, 1) 20%,
+    hsla(202, 27%, 45%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
+}
+
+.content-box {
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 0 32px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  height: 100%;
+  padding: 1rem 2rem;
+}
+
+.login-form {
+  padding: 9rem 2rem;
+  box-shadow: 0 0 32px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-hidden {
+  display: none !important;
+}
+
+.sign-in-hidden-text {
+  margin: unset !important;
+}
+
+@media (max-width: 850px) {
+  .div-text {
+    display: none !important;
+  }
+
+  .sign-in-hidden {
+    display: block !important;
+  }
+
+  .content-box {
+    color: white !important;
+
+    background: hsla(213, 77%, 14%, 1);
+
+    background: hsla(213, 77%, 14%, 1);
+
+    background: linear-gradient(
+      45deg,
+      hsla(213, 77%, 14%, 1) 20%,
+      hsla(202, 27%, 45%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      45deg,
+      hsla(213, 77%, 14%, 1) 20%,
+      hsla(202, 27%, 45%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      135deg,
+      hsla(213, 77%, 14%, 1) 20%,
+      hsla(202, 27%, 45%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
+  }
+}
