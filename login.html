@@ -3,89 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.2/examples/navbar-fixed/"
-    />
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
     <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="content-box row align-items-center">
-      <div class="col div-text">
-        <div class="d-flex">
-          <span class="logo text-white me-5">Logo</span>
-          <h5 class="mb-5 text-white">Company Name</h5>
-        </div>
-        <div class="mt-5">
-          <h2 class="text-white">
-            Lorem ipsum dolor <br />
-            sit amet consectetur <br />
-            adipisicing.
+    <main class="main">
+      <form action="">
+        <div class="heading-box">
+          <h2 class="secondary-heading">
+            Welcome to the entrance. <br />
+            Log in to continue.
           </h2>
         </div>
-      </div>
 
-      <form class="form login-form col px-5">
-        <div class="mb-5">
-          <h2 class="">Access Your Account</h2>
-          <span>Enter your details to sign in.</span>
+        <div class="login-email-box margin-top">
+          <label for="email">Email</label>
+          <input class="login-input" type="email" id="email" />
         </div>
-
-        <div class="">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" />
+        <div class="login-password-box margin-top">
+          <label for="password">Password</label>
+          <input class="login-input" type="password" id="password" />
         </div>
-
-        <div class="">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4" />
-        </div>
-
-        <div class="">
-          <div class="d-flex gap-3 mt-5 justify-content-end">
-            <p class="">Don't Have an Account?</p>
-            <a href="index.html" class="link-underline-light">Sign Up</a>
+        <div class="forgot-box"><a href="">Forgot Password</a></div>
+        <div class="login-btn-box">
+          <div class="sub-heading">
+            <p>Don't Have an Account?</p>
+            <a href="index.html">Create a new account</a>
           </div>
-        </div>
-        <div class="col-12 mt-5 gap-3 d-flex">
-          <button
-            type="submit"
-            class="btn btn-primary text-nowrap button border-0"
-          >
-            Sign In
-          </button>
-          <div class="row gap-3 sign-in-hidden">
-            <p class="sign-in-hidden-text col">Already Have an Account?</p>
-            <a
-              href="index.html"
-              class="link-underline-light text-nowrap col text-white"
-              >Sign Up</a
-            >
-          </div>
+          <button class="btn-form mar-top">Login</button>
         </div>
       </form>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+      <div class="form-img-box">
+        <img src="images/brooke-lark-W1B2LpQOBxA-unsplash.jpg" alt="" />
+      </div>
+    </main>
   </body>
 </html>
